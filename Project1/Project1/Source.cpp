@@ -4,8 +4,12 @@ using namespace std;
 int Add(int x, int y) {
 	return x + y;
 }
+int Sub(int x, int y) {
+	return x - y;
+}
 int main() {
 	cout << "Hello World" << endl;
 	cout << Add(10, 3) << endl;
+	cout << Sub(10, 3) << endl;
 	return 0;
 }
